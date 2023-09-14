@@ -1,2 +1,2 @@
-# webdriverio-automation
+# API-automation
 for learning purpose
