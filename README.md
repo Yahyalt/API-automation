@@ -1,5 +1,4 @@
 # API-automation
-# Nama Aplikasi
 
 Automation testing API using Jest & Axios.
 
