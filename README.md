@@ -14,3 +14,4 @@ Automation testing API using Jest & Axios.
 3. Install dependensi: `npm install`
 4. Atur konfigurasi di file `.env` dengan rename example.env menjadi .env:
 5. Jalankan aplikasi: `npm run test`
+6. Buka jest_html_reporters.html for the testing report
