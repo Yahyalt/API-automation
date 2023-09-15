@@ -26,4 +26,19 @@ const createBook = async (book) => {
   }
 };
 
-module.exports = { createBook };
+const deleteBook = async (book) => {
+  try {
+    const response = await instance.delete('/Book', {
+      data: {
+        isbn: book.isbn,
+        userId: book.userId,
+      },
+    });
+    return response.data;
+  } catch (error) {
+    throw new Error('Error deleting book');
+  }
+};
+
+
+module.exports = { createBook, deleteBook };

@@ -4,14 +4,28 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --reporters=default --reporters=jest-html-reporters",
     "jest": "jest"
+  },
+  "jest": {
+    "reporters": [
+      "default",
+      [
+        "jest-html-reporters",
+        {
+          "publicPath": "./reports",
+          "filename": "jest-report.html",
+          "expand": true
+        }
+      ]
+    ]
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^29.4.0"
+    "jest": "^29.7.0",
+    "jest-html-reporters": "^3.1.4"
   },
   "dependencies": {
     "axios": "^1.4.0",
