@@ -176,7 +176,7 @@ This project is licensed under the ISC License.
 
 ## 👤 Author
 
-**Yahya Hafiz**
+
 - GitHub: [@Yahyalt](https://github.com/Yahyalt)
 
 ---
